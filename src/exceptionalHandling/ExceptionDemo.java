@@ -27,6 +27,10 @@ public class ExceptionDemo {
 		{
 			System.out.println("Pointer exceptions are handled");
 		}
+		catch(ClassCastException a5)
+		{
+			System.out.println("Class cast exceptions are handled");
+		}
 		finally
 		{
 			System.out.println("Finally handled all exceptions - Finally is always there");

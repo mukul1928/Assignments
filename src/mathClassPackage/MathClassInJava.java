@@ -25,8 +25,7 @@ public class MathClassInJava {
 		{
 			System.out.println(Math.random()); //all time different values
 		}
-		
-		
+			
 	}
 
 }
