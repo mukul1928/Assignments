@@ -34,7 +34,6 @@ public class ScannerAssignment {
 		System.out.println("Modulus: "+mod);	
 	}
 
-	
 	public static void main(String[] args) {
 		
 		Scanner s1=new Scanner(System.in); //local variables are taken from scanner
@@ -46,9 +45,6 @@ public class ScannerAssignment {
 		sa.sub(num1, num2); //non static method invoke
 		multi(num1, num2); //static method invoke
 		sa.div(num1, num2);
-		mod(num1, num2);
-		
+		mod(num1, num2);		
 	}
-	
-
 }

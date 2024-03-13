@@ -8,8 +8,7 @@ class Supermostparent //grand parent
 	
 	void sub() {
 		System.out.println("sub");
-	}
-	
+	}	
 }
 
 class Superparent extends Supermostparent //parent inheriting grand parent
@@ -20,8 +19,7 @@ class Superparent extends Supermostparent //parent inheriting grand parent
 	
 	void div() {
 		System.out.println("div");
-	}
-	
+	}	
 }
 
 public class MultilevelInheritance extends Superparent //child inheriting parent
@@ -32,8 +30,7 @@ public class MultilevelInheritance extends Superparent //child inheriting parent
 	}
 
 	public static void main(String[] args) 
-	{
-		
+	{	
 		MultilevelInheritance m1=new MultilevelInheritance();
 		m1.add();
 		m1.sub();

@@ -15,6 +15,7 @@ class ParentClass //parent class
 
 public class SingleInheritance extends ParentClass //child class
 {
+	
 	void method3(int a, int b)
 	{
 		System.out.println(a);

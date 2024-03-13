@@ -19,7 +19,7 @@ public class Local_Global_Demo {
 
 	public static void main(String[] args) {
 		
-		int a=10;				//local variables declaration and initialization
+		int a=10;				//local variable declaration and initialization
 		String name="jaya";
 		
 		System.out.println(m); //static global variables can be called directly
