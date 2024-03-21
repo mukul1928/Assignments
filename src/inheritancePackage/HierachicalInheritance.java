@@ -24,7 +24,12 @@ class Child2 extends H_Parent //child 2 inheriting Parent class
 	}
 }
 
-public class HierachicalInheritance {
+public class HierachicalInheritance extends H_Parent //child 3 inheriting Parent class
+{
+	void name3()
+	{
+		System.out.println("main class name");
+	}
 
 	public static void main(String[] args) {
 		
@@ -35,6 +40,10 @@ public class HierachicalInheritance {
 		Child2 c2=new Child2();
 		c2.name2();
 		c2.surname();
+		
+		HierachicalInheritance c3=new HierachicalInheritance();
+		c3.name3();
+		c3.surname();
 		
 	}
 

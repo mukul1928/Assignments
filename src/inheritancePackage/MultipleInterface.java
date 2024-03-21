@@ -1,6 +1,6 @@
 package inheritancePackage;
 
-interface Parent1 //these 2 parents don't have relation
+interface Parent1 //these 4 parents don't have relation
 {
 	void add();
 	void sub();

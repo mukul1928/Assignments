@@ -19,7 +19,6 @@ class Parent extends G_Parent
 
 public class SuperCallingConstructor extends Parent
 {
-	
 	SuperCallingConstructor()
 	{
 		super("Jaya"); //super calling parent class constructor in child class explicitly

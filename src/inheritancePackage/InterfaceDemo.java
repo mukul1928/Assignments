@@ -6,7 +6,7 @@ interface One
 	void substract();
 }
 
-public class InterfaceDemo  implements One
+public class InterfaceDemo implements One
 {
 	void rect_area()
 	{
@@ -29,13 +29,13 @@ public class InterfaceDemo  implements One
 	
 	public void add() {
 		
-		System.out.println("The real logic here");
+		System.out.println("The real logic of add");
 	}
 
 	
 	public void substract() {
 		
-		System.out.println("The real logic");
+		System.out.println("The real logic of subtract");
 	}
 
 }

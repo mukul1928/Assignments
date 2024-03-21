@@ -39,6 +39,7 @@ public class Interface_inheritance implements Three
 		s1.triangle();
 		s1.square();
 		s1.rectangle();
+		s1.jaya();
 
 	}
 
@@ -65,7 +66,6 @@ public class Interface_inheritance implements Three
 		
 	}
 
-	
 	public void jaya() {
 		System.out.println("jayashree sureban");
 		

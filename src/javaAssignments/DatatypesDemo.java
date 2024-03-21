@@ -19,6 +19,6 @@ public class DatatypesDemo {
 		System.out.println("Gender :"+gender);
 		System.out.println("Age :"+age);
 		System.out.println("Salary :"+salary);
-
+		
 	}
 }

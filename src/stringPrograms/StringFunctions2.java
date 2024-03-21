@@ -8,8 +8,7 @@ public class StringFunctions2 {
 		System.out.println(ans1);
 		
 		String ans2=a.substring(1, 3);
-		System.out.println(ans2);
-		
+		System.out.println(ans2);	
 
 	}
 

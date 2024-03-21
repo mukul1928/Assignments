@@ -17,9 +17,7 @@ public class StringFunctions3 {
 		
 		boolean a4=s1.matches("j(.*)"); //starts with
 		System.out.println(a4);
-		
-		
-
+	
 	}
 
 }

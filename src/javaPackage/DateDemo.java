@@ -8,7 +8,7 @@ public class DateDemo {
 	{
 		Date d1=new Date();
 		//System.out.println(d1.getTime());
-		System.out.println(d1.getTime()+(1000*60*60*24*10));
+		System.out.println(d1.getTime()+(1000*60*60*24*10)); //10 days future time
 		
 		Date d2=new Date(d1.getTime()+(1000*60*60*24*10));
 		System.out.println(d2);
@@ -37,8 +37,7 @@ public class DateDemo {
 		//date format > DD/MM/YYYY
 		System.out.println(date.concat("/").concat(month).concat("/").concat(year));
 		
-		
-		
+			
 	}
 
 }
