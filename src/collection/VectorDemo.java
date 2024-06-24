@@ -16,8 +16,9 @@ public class VectorDemo {
 		v1.add("jaya");
 		v1.add(100);		//accepts duplicates
 		v1.add(250);
-		v1.add(null);		//accepts null
-		//Collections.sort(v1);
+		v1.add(null);		//accepts multiple null
+		v1.add(null);
+		//Collections.sort(v1); //cannot sort heterogeneous values
 		System.out.println(v1);
 		
 		Vector v2=new Vector();

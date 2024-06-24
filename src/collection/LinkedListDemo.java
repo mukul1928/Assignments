@@ -13,7 +13,8 @@ public class LinkedListDemo {
 		list1.add(800.78); //heterogeneous
 		list1.add('S');
 		list1.add("sachit");
-		list1.add(null); //accepts null
+		list1.add(null); //accepts multiple null
+		list1.add(null);
 		list1.add("sachit"); //accepts duplicates
 		list1.add(234);
 		list1.add(139);	//dynamic

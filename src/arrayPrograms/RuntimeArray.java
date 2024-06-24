@@ -12,7 +12,8 @@ public class RuntimeArray {
 		Scanner scan=new Scanner(System.in);
 		
 		System.out.println("Enter Array values");
-		for(int i=0;i<3;i++) 
+		
+		for(int i=0;i<num.length;i++) 
 		{
 			num[i]=scan.nextInt();
 		}

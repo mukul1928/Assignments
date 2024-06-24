@@ -1,12 +1,10 @@
 package collection;
 
-import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class PriorityQueueDemo {
 
 	public static void main(String[] args) {
-		
 		PriorityQueue p1=new PriorityQueue(); //not follows indexing
 		p1.add(120);
 		p1.add(235);
@@ -30,6 +28,7 @@ public class PriorityQueueDemo {
 		p2.add("sachit");
 		p2.add("priya");
 		System.out.println(p2);
+
 	}
 
 }

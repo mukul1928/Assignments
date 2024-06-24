@@ -28,8 +28,7 @@ public class StringFunctions {
 		String space=" ";
 		String fullname=n1.concat(space).concat(n2); //Concatenate 2 strings
 		System.out.println("Fullname : "+fullname);
-
-		
+	
 	}
 
 }

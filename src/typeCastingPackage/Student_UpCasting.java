@@ -13,8 +13,7 @@ class Mentor extends Teacher
 	void mean()
 	{
 		System.out.println("Mentoring");
-	}
-	
+	}	
 }
 
 public class Student_UpCasting extends Mentor
@@ -26,10 +25,8 @@ public class Student_UpCasting extends Mentor
 
 	public static void main(String[] args) {
 		
-		Mentor m1=new Student_UpCasting();
+		Mentor m1=new Student_UpCasting(); //up casting to parent class
 		m1.teach();
-		m1.mean();
-		
+		m1.mean();	
 	}
-
 }

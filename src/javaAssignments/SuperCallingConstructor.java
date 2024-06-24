@@ -27,7 +27,7 @@ public class SuperCallingConstructor extends Parent
 
 	public static void main(String[] args) {
 		
-		new SuperCallingConstructor();
+		new SuperCallingConstructor(); //object of child
 	}
 
 }

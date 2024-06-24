@@ -10,6 +10,8 @@ public class ExceptionDemo {
 		try
 		{
 			int number=scan.nextInt();
+			int c=10/number;
+			System.out.println(c);
 		}
 		catch(ArithmeticException a1)
 		{

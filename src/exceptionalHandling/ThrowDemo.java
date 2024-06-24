@@ -2,7 +2,7 @@ package exceptionalHandling;
 
 public class ThrowDemo {
 
-	public static void main(String[] args) throws ArrayIndexOutOfBoundsException
+	public static void main(String[] args) throws ArrayIndexOutOfBoundsException, Exception
 	
 	{
 		

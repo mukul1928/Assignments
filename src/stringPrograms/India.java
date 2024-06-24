@@ -12,16 +12,17 @@ public class India {
 				reverse=reverse+ans;
 			}
 			System.out.println("Reversed string : " +reverse);
+			
 			boolean b=name.equals(reverse);
 			if(b==true)
 			{
-			System.out.println("India is palindrome");
+				System.out.println("India is palindrome");
 			}
 			else
 			{
-			System.out.println("India is not palindrome");
+				System.out.println("India is not palindrome");
 			}
-	}
+		}
 
-}
+	}
 }

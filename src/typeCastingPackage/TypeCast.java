@@ -4,12 +4,13 @@ public class TypeCast {
 
 	public static void main(String[] args) {
 		
-		double wt=52; //widning - implicit way
+		int age=52;
+		double wt=age; //Widening - implicit way
 		System.out.println(wt);
 		
-		
-		double weight=(double)90; //widning - explicit way
-		System.out.println(weight);
+		int weight=54;
+		double weight1=(double)weight; //Widening - explicit way
+		System.out.println(weight1);
 
 	}
 

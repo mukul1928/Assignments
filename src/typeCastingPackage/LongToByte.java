@@ -4,10 +4,10 @@ public class LongToByte {
 
 	public static void main(String[] args) {
 		
-		//long a1 = 334455667788;
+		long a1 = 234455667;
 		
-		//byte b1=(byte) 334455667788;
-		//System.out.println(b1);
+		byte b1=(byte) a1;
+		System.out.println(b1);
 		
 	}
 

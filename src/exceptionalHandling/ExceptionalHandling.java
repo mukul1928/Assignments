@@ -15,6 +15,7 @@ public class ExceptionalHandling {
 			int c=1/a;
 			System.out.println(c);
 		}
+		
 		catch(ArithmeticException a1)
 		{
 			System.out.println("handled exception 1");
@@ -24,6 +25,8 @@ public class ExceptionalHandling {
 		{
 			System.out.println("handled exception 2");
 		}
+		
+		Throwable tw;
 		
 	}
 

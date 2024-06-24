@@ -8,7 +8,7 @@ class Teacher1
 	}
 }
 
-class Mentor1 extends Teacher1
+class Mentor1 
 {
 	void mean()
 	{
@@ -16,7 +16,7 @@ class Mentor1 extends Teacher1
 	}
 }
 
-public class Student_Upcasting3 extends Mentor1
+public class Student_Upcasting3 extends Teacher1 //upcasting to Teacher1
 {
 	void stud()
 	{
@@ -27,7 +27,12 @@ public class Student_Upcasting3 extends Mentor1
 		
 		Teacher1 t1=new Student_Upcasting3();
 		t1.teach();
-				
+		
+	//	Student_Upcasting3 s1=new Mentor1(); // there is no upcasting
+		
+		Student_Upcasting3 s2=(Student_Upcasting3) new Teacher1(); //downcasting 
+		s2.stud();
+		s2.teach();
+					
 	}
-
 }

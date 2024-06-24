@@ -9,7 +9,5 @@ public class Thread_Demo {
 			System.out.println(i);
 			Thread.sleep(1000);
 		}
-
 	}
-
 }

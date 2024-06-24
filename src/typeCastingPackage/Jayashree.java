@@ -9,8 +9,8 @@ public class Jayashree {
 
 	public static void main(String[] args) {
 		
-		Object obj=new Jayashree();
-		
+		Object obj=new Jayashree();	// upcasting
+		System.out.println(obj.getClass());
 
 	}
 

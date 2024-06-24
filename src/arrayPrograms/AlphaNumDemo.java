@@ -6,6 +6,7 @@ public class AlphaNumDemo {
 	
 		String name="mango";
 		char c1[]=name.toCharArray();
+		System.out.println(c1);
 		
 		int alphaCount=0;
 		int digitCount=0;

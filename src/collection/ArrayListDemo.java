@@ -1,12 +1,11 @@
 package collection;
 
-import java.util.ArrayList; //* can be used instead of ArrayList
+import java.util.ArrayList;
 import java.util.Collections;
 
 public class ArrayListDemo {
 
 	public static void main(String[] args) {
-		
 		ArrayList a1=new ArrayList(); //follows indexing
 		a1.add(100); 
 		a1.add(987);
@@ -17,7 +16,8 @@ public class ArrayListDemo {
 		a1.add(14.6);
 		a1.add(100); //accepts duplicates
 		a1.add("manish");
-		a1.add(null);//accepts null
+		a1.add(null);//accepts multiple null
+		a1.add(null);
 		a1.add(true);
 		System.out.println(a1); //heterogeneous array list cannot be sorted
 		

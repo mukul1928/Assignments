@@ -15,11 +15,14 @@ public class StringFunctions1 {
 		String ans2=n1.replaceAll("fruit", "and banana");
 		System.out.println(ans2);
 		
+		//in a given string replace all the numeric values
 		String name1="world no 1";
 		System.out.println(name1.replaceAll("[0-9]", " "));
 	
+		//in a given string replace all the alphabet values
 		System.out.println(name1.replaceAll("[a-z]", " "));
 		
+		//in a given string replace all the capital and small alphabet value
 		String name2="manish Kumar TIWARI";
 		System.out.println(name2.replaceAll("[A-Z]", " "));
 		System.out.println(name2.replaceAll("[a-z]", " "));

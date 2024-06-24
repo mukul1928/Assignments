@@ -4,7 +4,7 @@ public class GroTechMinds {
 
 	public static void main(String[] args) {
 
-		String name="GroTechMinds";
+		String name="GroTechMinds"; //print the string vertically
 		
 		char c[ ]=name.toCharArray();
 		

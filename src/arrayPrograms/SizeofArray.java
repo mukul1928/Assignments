@@ -29,7 +29,7 @@ public class SizeofArray {
 		//print array values
 		System.out.println(Arrays.toString(array));
 		
-		
+		scan.close();
+			
 	}
-
 }

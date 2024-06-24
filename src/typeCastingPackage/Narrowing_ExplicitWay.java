@@ -5,7 +5,8 @@ public class Narrowing_ExplicitWay {
 	public static void main(String[] args) {
 		
 		//converting double into int
-		int a = (int)86.06;
+		double d=86.06;
+		int a = (int)d;
 		System.out.println(a);
 		
 		//convert pi into int

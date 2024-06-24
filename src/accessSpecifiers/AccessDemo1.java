@@ -1,6 +1,6 @@
 package accessSpecifiers;
 
-public class AccessDemo1 {
+ class AccessDemo1 {
 	
 	public static void add()
 	{
@@ -17,7 +17,7 @@ public class AccessDemo1 {
 		
 	}
 	
-	static void div()
+	static void div() //default specifier
 	{
 		
 	}

@@ -12,9 +12,9 @@ public class Super_Keyword extends Super_Keyword_parent { //Inheritance
 	
 	void superMethod() //child class method with same name and signature
 	{
-		super.superMethod(); //super keyword invoking parent class method
+	//	super.superMethod(); //super keyword invoking parent class method
 		System.out.println("child class implementation");
-		//super.superMethod();
+		super.superMethod();
 	}
 
 	public static void main(String[] args) {

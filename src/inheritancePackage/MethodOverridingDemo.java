@@ -25,6 +25,9 @@ public class MethodOverridingDemo
 		
 		Child c1=new Child();
 		c1.add(); //child class method will be displayed and parent class method will be overridden
+		
+		Parent p1=new Parent();
+		p1.add(); //when parent class object is created, parent class method will be invoked
 
 	}
 

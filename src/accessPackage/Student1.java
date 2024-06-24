@@ -1,6 +1,6 @@
 package accessPackage;
 
-public class Student1 {
+ public class Student1 {
 	
 	public void learnJava()
 	{

@@ -1,12 +1,10 @@
 package collection;
 
-import java.util.Collections;
 import java.util.LinkedHashSet;
 
 public class LinkedHashSetDemo {
 
 	public static void main(String[] args) {
-	
 		LinkedHashSet list=new LinkedHashSet(); //indexing
 		list.add(200); 
 		list.add(23);
@@ -16,6 +14,7 @@ public class LinkedHashSetDemo {
 		list.add(45.67); //heterogeneous
 		list.add("abcd");
 		list.add(null); //accepts null
+		list.add(null); //accepts only one null
 		list.add(4509098); //dynamic
 		
 		//Collections.sort(list);
@@ -31,6 +30,7 @@ public class LinkedHashSetDemo {
 		list1.add(5);
 		//Collections.sort(list1); //no sort
 		System.out.println(list1);
+
 	}
 
 }

@@ -12,6 +12,9 @@ public class CopyArray {
 		array1[2]=74;
 		array1[3]=96;
 		
+		System.out.println("Array 1 : ");
+		System.out.println(Arrays.toString(array1));
+		
 		int array2[]=new int[array1.length]; //length of both arrays should be same
 		
 		for(int i=0; i<array1.length; i++)

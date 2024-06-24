@@ -9,7 +9,7 @@ public class WhileLoopDemo {
 		{
 			System.out.println("jayashree");
 			a--;
-			//a++; then it will print jayashree tille the range of int
+			//a++; then it will print jayashree till the range of int
 		}
 	}
 
