@@ -51,10 +51,10 @@ public class EncapAuto {
 		log.setAge(21);
 		System.out.println("Updated age : " + log.getAge());
 
-		log.setUserName("jaya@gamil.com");
+		log.setUserName("mukul@gamil.com");
 		System.out.println("Updated email : " + log.getUserName());
 
-		log.setPwd("Jaya@12345");
+		log.setPwd("Mukul@12345");
 		System.out.println("Updated password : " + log.getPwd());
 
 		log.setOtp(5932);
