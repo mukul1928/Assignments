@@ -12,7 +12,6 @@ public class AverageDemo {
 			System.out.println(i);
 					
 			sum+=i;	
-				
 		}
 		
 		System.out.println("Sum of 1-10 is: " +sum);

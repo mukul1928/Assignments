@@ -11,6 +11,7 @@ public class RectangleDemo {
 		System.out.println("Area of Rectangle = "+rArea);
 		
 		double circum=(2*length)+(2*width);
+		//double circum = 2*(length+width);
 		System.out.println("Circumference of Rectangle = "+circum);
 
 	}
